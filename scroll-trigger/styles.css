@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+
+
+#page1,
+#page2,
+#page3 {
+  height: 100vh;
+}
+
+#page1 {
+  background-color: red;
+}
+
+#page2 {
+  background-color: black;
+  overflow: hidden;
+}
+
+#experience {
+  font-size: 35em;
+  color: white;
+  margin-left: 100px;
+}
+
+#page3 {
+  background-color: blue;
+}
