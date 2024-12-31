@@ -5,6 +5,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 #main {
@@ -30,4 +31,48 @@ body {
 
 #nav i {
   font-size: 30px;
+  cursor: pointer;
+}
+
+#full {
+  height: 100%;
+  width: 30%;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.601);
+  top: 0;
+  right: -40%;
+  backdrop-filter: blur(10px);
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#full h4 {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+#full h4:hover {
+  cursor: pointer;
+}
+
+#full i {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  transition: 0.5s ease-in-out;
+  background-color: white;
+  border-radius: 100%;
+  padding: 5px;
+  font-size: 30px;
+  opacity: 1;
+}
+
+#full i:hover {
+  cursor: pointer;
+  scale: 1.3;
+  background-color: black !important;
+  color: white;
 }
