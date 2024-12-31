@@ -21,7 +21,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 25px 80px;
+  padding: 25px 100px;
 }
 
 .part2 {
@@ -59,20 +59,63 @@ nav button {
 }
 
 .center {
-  background-color: red;
-  height: 85%;
+  padding: 30px 100px;
+  height: 80%;
   width: 100%;
   display: flex;
 }
 
 .center-part1 {
-  background-color: lightblue;
   height: 100%;
-  width: 50%;
+  width: 45%;
 }
 
+.center-part1 h1 {
+  font-size: 60px;
+  line-height: 1.2;
+  font-family: monospace;
+}
+
+.center-part1 p {
+  font-size: 26px;
+  width: 95%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.center-part1 button {
+  background-color: black;
+  color: #fff;
+  border-radius: 10px;
+  padding: 22px 40px;
+  font-size: 25px;
+  font-weight: 600;
+  border: none;
+}
+
+/* Center Part 2 */
+
 .center-part2 {
-  background-color: red;
   height: 100%;
-  width: 50%;
+  width: 55%;
+  position: relative;
+}
+
+.center-part2 img {
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+
+/* Section of companies */
+
+.section1bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 120px;
+}
+
+.section1bottom img {
+  height: 60px;
 }
