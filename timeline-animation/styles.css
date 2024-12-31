@@ -1,0 +1,33 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: lightblue;
+  background-image: url("https://i.pinimg.com/736x/5c/52/1e/5c521ed49115f4e174673eaf7c6986ce.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 50px;
+  color: #fff;
+}
+
+#nav h2 {
+  font-size: 30px;
+}
+
+#nav i {
+  font-size: 30px;
+}
